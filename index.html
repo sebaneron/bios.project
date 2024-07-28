@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add song</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Song List</h1>
+    </header>
+
+    <main>
+        <section id="songFormSection">
+            <form id="songForm">
+                <label for="newSong">New song:</label>
+                <input type="text" id="newSong" name="newSong" placeholder="Write the name of the song here" required>
+                <button type="submit">Add</button>
+            </form>
+        </section>
+
+        <section id="songListSection">
+            <ul id="songList"></ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
